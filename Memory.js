@@ -177,7 +177,7 @@ $(document).ready(function(){
         cardWidth--;
         cardHeight-=2;
         level++;
-        if (level==2){
+        if (level%2==0){
             timer+=300;
         }
         if (level>4){
