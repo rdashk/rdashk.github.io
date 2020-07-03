@@ -176,10 +176,10 @@ $(document).ready(function(){
         size+=8;
         cardWidth--;
         cardHeight-=2;
+        level++;
         if (level==2){
             timer+=300;
         }
-        level++;
         if (level>4){
             End_All_Levels();
         }
